@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Platform Approver" max_length="40" name="x_ssr_cloakware_platform_approver" type="collection">
+        <element label="Platform Approver" max_length="32" name="au_name" reference="sys_user" type="reference"/>
+        <element display="true" label="AU_Platform" max_length="40" name="au_platform" type="string"/>
+        <element label="AU_Role" max_length="40" name="au_role" type="string"/>
+        <index name="index">
+            <element name="au_name"/>
+        </index>
+        <index name="index2">
+            <element name="au_platform"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="x_ssr_cloakware_ii_tmpl_events_xform">30b4f48edbc65b40034f5275ca9619fb</map>
+        <reference_value_field/>
+        <source_field>u_calllistseverity</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_ssr_cloakware_ii_tmpl_events</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-05-14 17:28:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7cb4388edbc65b40034f5275ca961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_calllistseverity</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>sys_transform_entry_7cb4388edbc65b40034f5275ca961903</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-05-14 17:28:40</sys_updated_on>
+        <target_field>u_calllistseverity</target_field>
+        <target_table>x_ssr_cloakware_ii_events</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

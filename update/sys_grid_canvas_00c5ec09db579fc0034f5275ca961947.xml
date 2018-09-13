@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2018-09-13 15:33:44">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA New Tab">44c5ec09db579fc0034f5275ca961946</legacy_page>
+        <name>PA New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>00c5ec09db579fc0034f5275ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>sys_grid_canvas_00c5ec09db579fc0034f5275ca961947</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+        <related_items_node>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab">00c5ec09db579fc0034f5275ca961947</grid_canvas>
+                <height>17</height>
+                <portal_widget display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_widget>
+                <posx>0</posx>
+                <posy>37</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>tom.cullen</sys_created_by>
+                <sys_created_on>2018-07-12 17:07:56</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>94c56049db579fc0034f5275ca961961</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_name/>
+                <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_94c56049db579fc0034f5275ca961961</sys_update_name>
+                <sys_updated_by>tom.cullen</sys_updated_by>
+                <sys_updated_on>2018-07-12 17:07:56</sys_updated_on>
+                <width>12</width>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone999</dropzone>
+                        <offset>0</offset>
+                        <page display_value="PA New Tab">44c5ec09db579fc0034f5275ca961946</page>
+                        <summary>Cloakware Requests by Date</summary>
+                        <sys_created_by>tom.cullen</sys_created_by>
+                        <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                        <sys_id>58c56049db579fc0034f5275ca96195e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tom.cullen</sys_updated_by>
+                        <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab">00c5ec09db579fc0034f5275ca961947</grid_canvas>
+                                <height>17</height>
+                                <portal_widget display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_widget>
+                                <posx>0</posx>
+                                <posy>37</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:56</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>94c56049db579fc0034f5275ca961961</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_name/>
+                                <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_94c56049db579fc0034f5275ca961961</sys_update_name>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:56</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>14c56049db579fc0034f5275ca96195f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>1cc56049db579fc0034f5275ca96195e</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>98c56049db579fc0034f5275ca96195f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>Cloakware Requests by Date</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>d4c56049db579fc0034f5275ca96195f</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">58c56049db579fc0034f5275ca96195e</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>dcc56049db579fc0034f5275ca96195e</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>78456809db579fc0034f5275ca961980</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone0</dropzone>
+                        <offset>0</offset>
+                        <page display_value="PA New Tab">44c5ec09db579fc0034f5275ca961946</page>
+                        <summary/>
+                        <sys_created_by>tom.cullen</sys_created_by>
+                        <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                        <sys_id>54c56049db579fc0034f5275ca961958</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tom.cullen</sys_updated_by>
+                        <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab">00c5ec09db579fc0034f5275ca961947</grid_canvas>
+                                <height>17</height>
+                                <portal_widget display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_widget>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:56</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>98c56049db579fc0034f5275ca961960</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_name/>
+                                <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_98c56049db579fc0034f5275ca961960</sys_update_name>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:56</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>10c56049db579fc0034f5275ca96195e</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>14c56049db579fc0034f5275ca96195d</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>18c56049db579fc0034f5275ca961958</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>18c56049db579fc0034f5275ca96195c</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>50c56049db579fc0034f5275ca96195d</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>5cc56049db579fc0034f5275ca96195d</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>left</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>98c56049db579fc0034f5275ca96195d</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>9cc56049db579fc0034f5275ca961958</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>bc0c18f1d7f00200b96d45a3ce610376</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>9cc56049db579fc0034f5275ca96195c</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>d0c56049db579fc0034f5275ca96195e</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>88b1e0a7d7520200b96d45a3ce61032f</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>d4c56049db579fc0034f5275ca96195d</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>Incident Process by Age</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>d8c56049db579fc0034f5275ca961958</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>process</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_section>
+                                <sys_created_by>tom.cullen</sys_created_by>
+                                <sys_created_on>2018-07-12 17:07:55</sys_created_on>
+                                <sys_id>d8c56049db579fc0034f5275ca96195c</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>tom.cullen</sys_updated_by>
+                                <sys_updated_on>2018-07-12 17:07:55</sys_updated_on>
+                                <value>10pt</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab">00c5ec09db579fc0034f5275ca961947</grid_canvas>
+                <height>17</height>
+                <portal_widget display_value="Created 07/12/18 01:07:55 PM">54c56049db579fc0034f5275ca961958</portal_widget>
+                <posx>0</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>tom.cullen</sys_created_by>
+                <sys_created_on>2018-07-12 17:07:56</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>98c56049db579fc0034f5275ca961960</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_name/>
+                <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_98c56049db579fc0034f5275ca961960</sys_update_name>
+                <sys_updated_by>tom.cullen</sys_updated_by>
+                <sys_updated_on>2018-07-12 17:07:56</sys_updated_on>
+                <width>12</width>
+            </sys_grid_canvas_pane>
+        </related_items_node>
+    </sys_grid_canvas>
+</record_update>

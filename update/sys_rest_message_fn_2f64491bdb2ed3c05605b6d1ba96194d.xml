@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>&lt;spifCW&gt;&#13;
+&lt;Request&gt;&#13;
+  &lt;Action&gt;CheckOut&lt;/Action&gt;   &#13;
+  &lt;Platform&gt;WINDOWS&lt;/Platform&gt;&#13;
+  &lt;Device&gt;itdv1005140&lt;/Device&gt;  -Add this device to the drop down list&#13;
+  &lt;UserID&gt;lasvegas&lt;/UserID&gt;  - this is the id that requesting pwd&#13;
+  &lt;Requestor&gt;exxxxxx&lt;/Requestor&gt;  -Requester lan id&#13;
+  &lt;RequestorName&gt;John_Doe&lt;/RequestorName&gt;  -requester name  make sure no blank spaces use _&#13;
+  &lt;Approver&gt;e450327&lt;/Approver&gt;&#13;
+  &lt;ApproverName&gt;liakos_George&lt;/ApproverName&gt;&#13;
+  &lt;Ticket&gt;SR123456Test&lt;/Ticket&gt;  -- ticket#&#13;
+  &lt;Function&gt;CALL_CW&lt;/Function&gt;  &#13;
+  &lt;Vendorid&gt;02999956-98CD-4AC5-B296-027777D11340&lt;/Vendorid&gt;  -- use this id&#13;
+&lt;/Request&gt;&#13;
+&lt;/spifCW&gt;&#13;
+</content>
+        <function_name>TestPost</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Cloakware Firecall [ TestPost ]</qualified_name>
+        <rest_endpoint>https://DC3PWVC0253.corp.statestr.com/RS4/Service1.svc/spifCW</rest_endpoint>
+        <rest_message display_value="Cloakware Firecall">d83b35e8db129f405605b6d1ba9619ef</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-06-12 12:21:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f64491bdb2ed3c05605b6d1ba96194d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TestPost</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>sys_rest_message_fn_2f64491bdb2ed3c05605b6d1ba96194d</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-06-17 13:26:21</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="ETS">27c17d29dbd253805605b6d1ba9619d0</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

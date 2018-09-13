@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Ssr Cloakware Firecall Feed" max_length="40" name="u_imp_tmpl_x_ssr_cloakware_firecall_feed" type="collection">
+        <element attributes="import_attribute_name=Account Id,edge_encryption_enabled=true" label="Account Id" max_length="40" name="u_account_id" type="string"/>
+        <element attributes="import_attribute_name=Device,edge_encryption_enabled=true" label="Device" max_length="40" name="u_device" type="string"/>
+        <element attributes="import_attribute_name=Platform,edge_encryption_enabled=true" label="Platform" max_length="40" name="u_platform" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_ssr_cloakware_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Access to Server</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0816d732db8a1b405605b6d1ba9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Access to Server</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application migration</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c16d732db8a1b405605b6d1ba9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Application migration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business User Entitlement</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0016d732db8a1b405605b6d1ba9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Business User Entitlement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Configurations</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8016d732db8a1b405605b6d1ba9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Configurations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Fixes</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c161372db8a1b405605b6d1ba96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Data Fixes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database/File/Folder Fixes</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc161372db8a1b405605b6d1ba96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Database/File/Folder Fixes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debug</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40161372db8a1b405605b6d1ba961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Debug</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Functional Deficiencies</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>7</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0161372db8a1b405605b6d1ba961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Functional Deficiencies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Installs</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>8</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44161372db8a1b405605b6d1ba961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Installs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>9</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4161372db8a1b405605b6d1ba961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Password Reset/Change</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>10</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48161372db8a1b405605b6d1ba96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Password Reset/Change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-production testing</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>11</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8161372db8a1b405605b6d1ba96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Pre-production testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Production Issue</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>12</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c161372db8a1b405605b6d1ba96193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Production Issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Work</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_request</name>
+            <sequence>13</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc161372db8a1b405605b6d1ba961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+            <value>Project Work</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_ssr_cloakware_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-17 13:09:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4816d732db8a1b405605b6d1ba9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+            <sys_update_name>sys_choice_x_ssr_cloakware_request_category</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-17 13:09:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

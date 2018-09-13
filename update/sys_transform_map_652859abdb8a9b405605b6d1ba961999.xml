@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>x_ssr_cloakware_ii_tmpl_firecall_feed_xform</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_ssr_cloakware_ii_tmpl_firecall_feed</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-05-19 11:54:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>652859abdb8a9b405605b6d1ba961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ssr_cloakware_ii_tmpl_firecall_feed_xform</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>sys_transform_map_652859abdb8a9b405605b6d1ba961999</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-05-19 11:54:26</sys_updated_on>
+        <target_table>x_ssr_cloakware_ii_firecall_feed</target_table>
+    </sys_transform_map>
+</record_update>

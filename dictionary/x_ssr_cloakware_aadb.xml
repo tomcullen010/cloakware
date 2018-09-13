@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="AADB" max_length="40" name="x_ssr_cloakware_aadb" type="collection">
+        <element choice="1" label="Owner approver tag name" max_length="40" name="choice" type="choice">
+            <choice/>
+        </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Lan id" max_length="40" name="lan_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Platform name" max_length="40" name="platform_name" type="string"/>
+    </element>
+</database>

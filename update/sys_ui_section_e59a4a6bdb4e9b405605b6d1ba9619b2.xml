@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="e59a4a6bdb4e9b405605b6d1ba9619b2" sys_domain="global" table="x_ssr_cloakware_platform_approver" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>468c46ebdb4e9b405605b6d1ba9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>au_platform</element>
+            <position>1</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>c68c46ebdb4e9b405605b6d1ba9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>au_name</element>
+            <position>2</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>4a8c46ebdb4e9b405605b6d1ba9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>au_name.u_au_id</element>
+            <position>3</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>ca8c46ebdb4e9b405605b6d1ba9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>4e8c46ebdb4e9b405605b6d1ba9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>5</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>ce8c46ebdb4e9b405605b6d1ba9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>au_role</element>
+            <position>6</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>428c46ebdb4e9b405605b6d1ba9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>au_name.email</element>
+            <position>7</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:43:17</sys_created_on>
+            <sys_id>c28c46ebdb4e9b405605b6d1ba9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ssr_cloakware_platform_approver" sys_domain="global" view="Default view">e59a4a6bdb4e9b405605b6d1ba9619b2</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:43:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ssr_cloakware_platform_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-19 15:34:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e59a4a6bdb4e9b405605b6d1ba9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ssr_cloakware_platform_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+            <sys_update_name>sys_ui_section_e59a4a6bdb4e9b405605b6d1ba9619b2</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-19 15:34:48</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

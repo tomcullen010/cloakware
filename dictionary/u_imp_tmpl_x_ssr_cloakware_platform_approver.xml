@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Ssr Cloakware Platform Approver" max_length="40" name="u_imp_tmpl_x_ssr_cloakware_platform_approver" type="collection">
+        <element attributes="import_attribute_name=AU_Name,edge_encryption_enabled=true" label="AU_Name" max_length="32" name="u_au_name" type="string"/>
+        <element attributes="import_attribute_name=AU_Platform,edge_encryption_enabled=true" label="AU_Platform" max_length="40" name="u_au_platform" type="string"/>
+        <element attributes="import_attribute_name=AU_Role,edge_encryption_enabled=true" label="AU_Role" max_length="40" name="u_au_role" type="string"/>
+    </element>
+</database>

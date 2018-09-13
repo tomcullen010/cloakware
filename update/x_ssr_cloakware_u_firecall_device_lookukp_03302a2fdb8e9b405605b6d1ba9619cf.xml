@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_ssr_cloakware_u_firecall_device_lookukp">
+    <x_ssr_cloakware_u_firecall_device_lookukp action="INSERT_OR_UPDATE">
+        <account_id>lasvegas</account_id>
+        <active>true</active>
+        <device>gdcuw3297</device>
+        <order>100</order>
+        <platform display_value="WINDOWS">208d1e6bdb8e9b405605b6d1ba9619c4</platform>
+        <sys_class_name>x_ssr_cloakware_u_firecall_device_lookukp</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-05-19 17:09:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>03302a2fdb8e9b405605b6d1ba9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>208d1e6bdb8e9b405605b6d1ba9619c4</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>x_ssr_cloakware_u_firecall_device_lookukp_03302a2fdb8e9b405605b6d1ba9619cf</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-05-19 17:09:23</sys_updated_on>
+    </x_ssr_cloakware_u_firecall_device_lookukp>
+</record_update>

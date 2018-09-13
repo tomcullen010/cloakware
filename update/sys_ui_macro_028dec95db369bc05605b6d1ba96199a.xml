@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>change the Checkout Password button color</description>
+        <media_type/>
+        <name>change_check_out_password</name>
+        <scoped_name>x_ssr_cloakware_change_check_out_password</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-06-18 15:52:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>028dec95db369bc05605b6d1ba96199a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>change_check_out_password</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>sys_ui_macro_028dec95db369bc05605b6d1ba96199a</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-06-18 16:06:52</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<style>
+		 #sysverb_update_and_stay { background-color: #0099ff; color: #ffffff;}
+	</style>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

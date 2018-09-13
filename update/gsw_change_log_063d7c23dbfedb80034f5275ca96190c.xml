@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2018-06-25 16:43:52</change_date>
+        <changed_by display_value="Tom Cullen">04c19873db40d74021107d5e0f96199d</changed_by>
+        <content display_value="IT Operations Management Guided Setup">f52f9c00c31022007bf1bea192d3aef8</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-06-25 16:43:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>063d7c23dbfedb80034f5275ca96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2018-06-25 16:43:52</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>gsw_change_log_063d7c23dbfedb80034f5275ca96190c</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-06-25 16:43:52</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

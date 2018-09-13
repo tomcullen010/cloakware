@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description>Cloakware Password Request</description>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"userid","type":"STRING","mandatory":false,"defaultValue":"lasvegas"},{"name":"requestorname","type":"STRING","mandatory":false,"defaultValue":"Thomas_Ray"},{"name":"vendorid","type":"STRING","mandatory":false,"defaultValue":"02999956-98CD-4AC5-B296-027777D11340"},{"name":"platform","type":"STRING","mandatory":false,"defaultValue":"WINDOWS"},{"name":"approver","type":"STRING","mandatory":false,"defaultValue":"e450327"},{"name":"device","type":"STRING","mandatory":false,"defaultValue":"itdv1005140"},{"name":"requestor","type":"STRING","mandatory":false,"defaultValue":"e302686"},{"name":"approvername","type":"STRING","mandatory":false,"defaultValue":"liakos_George"},{"name":"ticket","type":"STRING","mandatory":false,"defaultValue":"SR123456Test"},{"name":"function","type":"STRING","mandatory":false,"defaultValue":"CALL_CW"},{"name":"action","type":"STRING","mandatory":false,"defaultValue":"CheckOut"}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"d83b35e8db129f405605b6d1ba9619ef","web_service_message_function":"c322a4cbdb6e93c05605b6d1ba961994","web_service_endpoint":"","parameters":"[{\"name\":\"approver\",\"value\":\"${activityInput.approver}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"userid\",\"value\":\"${activityInput.userid}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"requestorname\",\"value\":\"${activityInput.requestorname}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"vendorid\",\"value\":\"${activityInput.vendorid}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"platform\",\"value\":\"${activityInput.platform}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"device\",\"value\":\"${activityInput.device}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"requestor\",\"value\":\"${activityInput.requestor}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"ticket\",\"value\":\"${activityInput.ticket}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"function\",\"value\":\"${activityInput.function}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"action\",\"value\":\"${activityInput.action}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"approvername\",\"value\":\"${activityInput.approvername}\",\"additional_attribute\":\"do_not_escape_text\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables>{"name":"Local","type":"DATA_OBJECT","properties":[{"name":"localStatus_code","type":"INTEGER"},{"name":"localHeader","type":"DATA_OBJECT"},{"name":"localBody","type":"STRING"},{"name":"localError","type":"STRING"},{"name":"localOutput","type":"DATA_OBJECT","properties":[{"name":"SendRequest","type":"DATA_OBJECT","properties":[{"name":"Response","type":"DATA_OBJECT","properties":[{"name":"guid","type":"STRING"},{"name":"status","type":"STRING"}]}]}]}]}</local_variables>
+        <name>Cloakware Password Request</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[]}</output_meta>
+        <output_process_script><![CDATA[gs.info('** Cloakware REST Test2 **');
+gs.info('activityLocal.localStatus_code = ' + activityLocal.localStatus_code);
+gs.info('activityLocal.localHeader = ' + activityLocal.localHeader);
+gs.info('activityLocal.localBody = ' + activityLocal.localBody);
+gs.info('activityLocal.localError = ' + activityLocal.localError);
+gs.info('activityLocal.localOutput.SendRequest = ' + activityLocal.localOutput.SendRequest);]]></output_process_script>
+        <output_transform>[{"toLink":"activityLocal.localStatus_code","to":"localStatus_code","toType":"string","toDestination":"activityLocal","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityLocal.localHeader","to":"localHeader","toType":"string","toDestination":"activityLocal","sourceLabel":"executionResult.header","from":"${executionResult.header}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]},{"toLink":"activityLocal.localBody","to":"localBody","toType":"string","toDestination":"activityLocal","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityLocal.localError","to":"localError","toType":"string","toDestination":"activityLocal","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityLocal.localOutput.SendRequest","to":"localOutput.SendRequest","toType":"string","toDestination":"activityLocal","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"XML","translation":"//SendRequest","description":"","children":[]}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{"executionResult.status_code":{"payload":200,"type":"direct"},"executionResult.header":{"payload":"{\"Server\":\"Microsoft-IIS/8.5\",\"Content-Length\":\"527\",\"Date\":\"Sun, 17 Jun 2018 13:36:20 GMT\",\"Content-Type\":\"application/xml; charset=utf-8\",\"X-Powered-By\":\"ASP.NET\"}","type":"direct"},"executionResult.body":{"payload":"&lt;SendRequest&gt;&lt;Response&gt;&lt;status&gt;Running on Production - dsec02.\nBegin Processing CheckOut FIRE-WINDOWS itdv1005140 lasvegas SR123456Test.\n                 Requestor =  e302686 Thomas_Ray\n                 Approver  =  e450327 liakos_George\nChecking if Account FIRE-WINDOWS itdv1005140 lasvegas exists.\nAccount  itdv1005140 lasvegas found - AccountID[21610].\nRetrieving Account Password For AccountID [21610].\nL3Z&amp;amp;jaN;$fsljK,8 RC=400 Success.\n&lt;/status&gt;&lt;guid&gt;3f5bb5a1-c21a-4ef9-af5f-ef3647a30418&lt;/guid&gt;&lt;/Response&gt;&lt;/SendRequest&gt;","type":"direct"},"executionResult.error":{"payload":"null","type":"direct"}}</sample_payloads>
+        <short_description>Cloakware Password Request</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-06-17 13:35:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc75c3f8db725bc05605b6d1ba96194f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Cloakware Password Request</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>wf_element_activity_bc75c3f8db725bc05605b6d1ba96194f</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-06-17 14:14:52</sys_updated_on>
+        <version_container_id>6414727cdb325bc05605b6d1ba96193e</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc75c3f8db725bc05605b6d1ba96194f"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>false</published>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-06-17 13:35:46</sys_created_on>
+        <sys_id>b875c3f8db725bc05605b6d1ba961950</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-06-17 14:14:52</sys_updated_on>
+        <valid_from>2018-06-17 13:50:54</valid_from>
+        <valid_to/>
+        <version>2</version>
+        <version_container_id>6414727cdb325bc05605b6d1ba96193e</version_container_id>
+        <wf_element_definition display_value="Cloakware Password Request">bc75c3f8db725bc05605b6d1ba96194f</wf_element_definition>
+    </wf_versionable>
+    <wf_versionable action="update_multiple" query="version_container_id=6414727cdb325bc05605b6d1ba96193e^sys_id!=b875c3f8db725bc05605b6d1ba961950^version&lt;2">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=6414727cdb325bc05605b6d1ba96193e">
+        <new_activity_definition>bc75c3f8db725bc05605b6d1ba96194f</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+    </wf_activity>
+</record_update>

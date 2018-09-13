@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_modified_date" label="Modified_Date" language="en" table="x_ssr_cloakware_ii_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_modified_date</element>
+            <help/>
+            <hint/>
+            <label>Modified_Date</label>
+            <language>en</language>
+            <name>x_ssr_cloakware_ii_events</name>
+            <plural>Modified_Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-05-14 17:28:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e8b4f48edbc65b40034f5275ca9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Modified_Date</sys_name>
+            <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+            <sys_update_name>sys_documentation_x_ssr_cloakware_ii_events_u_modified_date_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-05-14 17:28:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

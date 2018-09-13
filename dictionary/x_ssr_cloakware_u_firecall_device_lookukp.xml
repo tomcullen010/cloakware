@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Firecall Device Lookukp" max_length="40" name="x_ssr_cloakware_u_firecall_device_lookukp" type="collection">
+        <element label="Account Id" max_length="40" name="account_id" type="string"/>
+        <element label="Device" max_length="40" name="device" type="string"/>
+        <element dependent="au_platform" dependent_on_field="au_platform" display="true" label="Platform" max_length="40" name="platform" reference="x_ssr_cloakware_platform_approver" type="reference" use_dependent_field="true"/>
+    </element>
+</database>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>&lt;spifCW&gt;&#13;
+&lt;Request&gt;&#13;
+  &lt;Action&gt;${action}&lt;/Action&gt;   &#13;
+  &lt;Platform&gt;${platform}&lt;/Platform&gt;&#13;
+  &lt;Device&gt;${device}&lt;/Device&gt; &#13;
+  &lt;UserID&gt;${userid}&lt;/UserID&gt; &#13;
+  &lt;Requestor&gt;${requestor}&lt;/Requestor&gt;   &#13;
+  &lt;RequestorName&gt;${requestorname}&lt;/RequestorName&gt;   &#13;
+  &lt;Approver&gt;${approver}&lt;/Approver&gt;&#13;
+  &lt;ApproverName&gt;${approvername}&lt;/ApproverName&gt;&#13;
+  &lt;Ticket&gt;${ticket}&lt;/Ticket&gt;   &#13;
+  &lt;Function&gt;${function}&lt;/Function&gt;  &#13;
+  &lt;Vendorid&gt;${vendorid}&lt;/Vendorid&gt;   &#13;
+&lt;/Request&gt;&#13;
+&lt;/spifCW&gt;</content>
+        <function_name>PasswordRequest</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Cloakware Firecall [ PasswordRequest ]</qualified_name>
+        <rest_endpoint>https://DC3PWVC0253.corp.statestr.com/RS4/Service1.svc/spifCW</rest_endpoint>
+        <rest_message display_value="Cloakware Firecall">d83b35e8db129f405605b6d1ba9619ef</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-06-11 15:22:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c322a4cbdb6e93c05605b6d1ba961994</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>PasswordRequest</sys_name>
+        <sys_package display_value="Cloakware" source="x_ssr_cloakware">5affc8b7dbd99b00c35075921f961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cloakware">5affc8b7dbd99b00c35075921f961964</sys_scope>
+        <sys_update_name>sys_rest_message_fn_c322a4cbdb6e93c05605b6d1ba961994</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-06-17 13:23:55</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="ETS">27c17d29dbd253805605b6d1ba9619d0</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

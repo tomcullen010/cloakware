@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Request" max_length="40" name="x_ssr_cloakware_request" sizeclass="32" type="collection">
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="Access to Server" sequence="0" value="Access to Server"/>
+                <element label="Application migration" sequence="1" value="Application migration"/>
+                <element label="Business User Entitlement" sequence="2" value="Business User Entitlement"/>
+                <element label="Configurations" sequence="3" value="Configurations"/>
+                <element label="Data Fixes" sequence="4" value="Data Fixes"/>
+                <element label="Database/File/Folder Fixes" sequence="5" value="Database/File/Folder Fixes"/>
+                <element label="Debug" sequence="6" value="Debug"/>
+                <element label="Functional Deficiencies" sequence="7" value="Functional Deficiencies"/>
+                <element label="Installs" sequence="8" value="Installs"/>
+                <element label="Maintenance" sequence="9" value="Maintenance"/>
+                <element label="Password Reset/Change" sequence="10" value="Password Reset/Change"/>
+                <element label="Pre-production testing" sequence="11" value="Pre-production testing"/>
+                <element label="Production Issue" sequence="12" value="Production Issue"/>
+                <element label="Project Work" sequence="13" value="Project Work"/>
+            </choice>
+        </element>
+        <element label="Check out Date" max_length="40" name="check_out_date" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Device" max_length="40" name="device" type="string"/>
+        <element label="Parent Incident" max_length="32" name="parent_incident" reference="incident" type="reference"/>
+        <element label="Password" max_length="65536" name="password" type="glide_encrypted"/>
+        <element label="Password default check in" max_length="40" name="password_auto_checkin" read_only="true" type="boolean"/>
+        <element label="Password Text" max_length="40" name="password_text" read_only="true" type="string"/>
+        <element label="Platform" mandatory="true" max_length="32" name="platform" reference="x_ssr_cloakware_u_firecall_device_lookukp" type="reference"/>
+        <element choice="1" dependent="platform" dependent_on_field="platform" label="Platform Approver" max_length="32" name="platform_approver" reference="x_ssr_cloakware_platform_approver" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="System Check In Date" max_length="40" name="system_check_in_date" read_only="true" type="glide_date_time"/>
+        <element label="Ticket Not Available" max_length="40" name="ticket_na" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="-" max_length="40" name="u_string_1" read_only="true" type="string"/>
+    </element>
+</database>

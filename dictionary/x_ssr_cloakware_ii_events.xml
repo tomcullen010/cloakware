@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Events" max_length="40" name="x_ssr_cloakware_ii_events" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Application_Name" max_length="40" name="u_application_name" type="string"/>
+        <element label="Asgn_Name" max_length="40" name="u_asgn_name" type="string"/>
+        <element label="Assign_Group" max_length="32" name="u_assign_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Auto_Ticket" max_length="40" name="u_auto_ticket" type="choice">
+            <choice>
+                <element label="No" sequence="0" value="No"/>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="Yes NOSHOW" sequence="0" value="Yes NOSHOW"/>
+                <element label="Yes NOTIFY" sequence="0" value="Yes NOTIFY"/>
+            </choice>
+        </element>
+        <element choice="1" label="CallListSeverity" max_length="40" name="u_calllistseverity" type="choice">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Normal" sequence="0" value="Normal"/>
+                <element label="Urgent" sequence="0" value="Urgent"/>
+            </choice>
+        </element>
+        <element label="Call_List_SOP" max_length="40" name="u_call_list_sop" type="string"/>
+        <element label="Call_List_Url" max_length="1024" name="u_call_list_url" type="url"/>
+        <element label="CI" max_length="32" name="u_ci" reference="cmdb_ci" type="reference"/>
+        <element label="Disable_Auto_Resolve" max_length="40" name="u_disable_auto_resolve" type="string"/>
+        <element label="Error_Code" max_length="40" name="u_error_code" type="string"/>
+        <element label="ISM_Assign_Group" max_length="32" name="u_ism_assign_group" reference="cmn_department" type="reference"/>
+        <element label="Modified_Date" max_length="40" name="u_modified_date" type="float"/>
+        <index name="index">
+            <element name="u_assign_group"/>
+        </index>
+        <index name="index2">
+            <element name="u_ism_assign_group"/>
+        </index>
+        <index name="index3">
+            <element name="u_ci"/>
+        </index>
+    </element>
+</database>
